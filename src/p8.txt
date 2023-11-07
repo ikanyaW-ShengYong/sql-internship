@@ -1,0 +1,8 @@
+Problem 8:
+Add 'Create View' Query. 'Create View' query can help reduce the time to retype all columns that needed to view. The query can be added before the SQL query as such:
+
+CREATE VIEW sales_sal AS (
+SELECT * ...); 
+
+The benefit of the create view query is to increase efficiency to look for a table result that needs to be viewed repeatedly.
+The drawback is of the create view is that the structure of the table will be locked and will need to delete the view to modify and some new data might be added into the view when it is applicable with the condition. 
